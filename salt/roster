@@ -1,0 +1,13 @@
+minion10:
+  host: 192.168.42.110
+  user: vagrant
+  password: vagrant
+  sudo: True
+
+minion11:
+  host: 192.168.42.111
+  user: vagrant
+  password: vagrant
+  sudo: True
+
+

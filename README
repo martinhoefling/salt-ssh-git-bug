@@ -1,0 +1,10 @@
+First start up the machines
+
+vagrant up master minion10 minion11
+
+log into master and test connection
+vagrant ssh master
+salt '*' test.ping
+
+salt 'minion10' state.highstate // works as intended
+salt-ssh 'minion10' state.highstate // is not working
